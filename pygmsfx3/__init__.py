@@ -10,8 +10,10 @@ from typing import Union
 
 
 GMSFX3_VERSION: str = 'v1.0.0'
+"""GMSFX3 Version."""
 
 SOUNDS_BASE_VERSION_URL: str = 'https://raw.githubusercontent.com/xzripper/gmsfx3-sounds/main/sounds/BASE-VERSION'
+"""Sounds Base Version URL."""
 
 SFXName = str
 """SFX Name."""
