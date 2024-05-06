@@ -299,4 +299,4 @@ You can push issue for new sound request, or for any other issue. Pull requests 
 `gmsfx3-sounds` base has no copyrighted material and free to use.<br><br>
 The `GMSFX3` software is licensed under the MIT License, but I would like to request that you include an attribution.
 
-<hr><p align="center"><b>GMSFX3 v1.0.0.</b> <img src="icon.png" width=20></p>
+<hr><p align="center"><b>GMSFX3 v1.0.0</b> <img src="icon.png" width=20></p>
