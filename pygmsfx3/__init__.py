@@ -39,10 +39,10 @@ def gmsfx3_clear_cached_sfx() -> None:
     """Clear cached SFX."""
     PyLoader.clear_temp_files()
 
-def gmsfx3_version() -> str:
-    """Get GMSFX3 version."""
-    return GMSFX3_VERSION
-
 def gmsfx3_sounds_base_version() -> str:
     """Get sounds base version."""
     return get(SOUNDS_BASE_VERSION_URL).content.decode()[:-1]
+
+def gmsfx3_version() -> str:
+    """Get GMSFX3 version."""
+    return GMSFX3_VERSION
