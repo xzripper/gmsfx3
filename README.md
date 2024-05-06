@@ -5,6 +5,7 @@
 GMSFX3 - Wrapper for the <a href="https://github.com/xzripper/gmsfx3-sounds">gmsfx3-sounds</a> sound base, containing 140+ sound effects.<br><br>
 Currently supported languages:
   * Python.
+  * Lua.
 
 More coming...
 
@@ -279,9 +280,9 @@ More coming...
   <summary>Wrapper documentation.</summary>
 
   `__init__`:<br>
-    - `gmsfx3_sfx_url(sfxname: SFXName) -> str`: Generate SFX URL. Used by `gmsfx3_download` and probably you don't need this.<br><br>
-    - `gmsfx3_download(sfxname: SFXName) -> GMSFX3DownloadResult`: Download SFX. In the event of a successful outcome, the path to SFX will be returned. In the absence of a successful outcome, a tuple will be returned along with an error message and an incorrect URL.<br><br>
-    - `gmsfx3_clear_cached_sfx() -> None`: This function clears the cached SFX, but you lose access to them next time. Download SFX via `gmsfx3_download` again next time.<br><br>
+    - `gmsfx3_sfx_url(sfxname: SFXName) -> str`: Generate SFX URL. Used by `gmsfx3_get` and probably you don't need this.<br><br>
+    - `gmsfx3_get(sfxname: SFXName) -> GMSFX3DownloadResult`: Download SFX. In the event of a successful outcome, the path to SFX will be returned. In the absence of a successful outcome, a tuple will be returned along with an error message and an incorrect URL.<br><br>
+    - `gmsfx3_clear_cached_sfx() -> None`: This function clears the cached SFX, but you lose access to them next time. Download SFX via `gmsfx3_get` again next time.<br><br>
     - `gmsfx3_version() -> str`:  Get `GMSFX3` version.<br><br>
     - `gmsfx3_sounds_base_version() -> str`: Get `gmsfx3-sounds` base version.<br><br>
 
@@ -298,4 +299,4 @@ You can push issue for new sound request, or for any other issue. Pull requests 
 `gmsfx3-sounds` base has no copyrighted material and free to use.<br><br>
 The `GMSFX3` software is licensed under the MIT License, but I would like to request that you include an attribution.
 
-<hr><p align="center"><b>GMSFX3 v1.0.0.</b></p>
+<hr><p align="center"><b>GMSFX3 v1.0.0.</b> <img src="icon.png" width=20></p>
