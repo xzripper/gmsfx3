@@ -25,8 +25,8 @@ def gmsfx3_sfx_url(sfxname: SFXName) -> str:
     """Generate SFX URL."""
     return f'https://github.com/xzripper/gmsfx3-sounds/blob/main/sounds/{sfxname}.wav?raw=true'
 
-def gmsfx3_download(sfxname: SFXName) -> GMSFX3DownloadResult:
-    """Download SFX."""
+def gmsfx3_get(sfxname: SFXName) -> GMSFX3DownloadResult:
+    """Get SFX."""
     with catch_warnings(record=True) as warning:
         webfile = PyLoader.webfile(gmsfx3_sfx_url(sfxname), 'wav')
 
