@@ -4,8 +4,9 @@
 
 GMSFX3 - Wrapper for the <a href="https://github.com/xzripper/gmsfx3-sounds">gmsfx3-sounds</a> sound base, containing 140+ sound effects.<br><br>
 Currently supported languages:
-  * Python.
-  * Lua.
+  * Python (#1 Support).
+  * Java (#1 Support).
+  * Lua (#2 Support).
 
 More coming...
 
@@ -299,4 +300,4 @@ You can push issue for new sound request, or for any other issue. Pull requests 
 `gmsfx3-sounds` base has no copyrighted material and free to use.<br><br>
 The `GMSFX3` software is licensed under the MIT License, but I would like to request that you include an attribution.
 
-<hr><p align="center"><b>GMSFX3 v1.0.0</b> <img src="icon.png" width=20></p>
+<hr><p align="center"><b>GMSFX3 v1.1.0</b> <img src="icon.png" width=20></p>
