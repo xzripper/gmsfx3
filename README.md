@@ -4,9 +4,9 @@
 
 GMSFX3 - Wrapper for the <a href="https://github.com/xzripper/gmsfx3-sounds">gmsfx3-sounds</a> sound base, containing 140+ sound effects.<br><br>
 Currently supported languages:
-  * Python (#1 Support).
-  * Java (#1 Support).
-  * Lua (#2 Support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/pygmsfx3">Python</a> (#1 Support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/jgmsfx3">Java</a> (#1 Support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/luagmsfx3">Lua</a> (#2 Support).
 
 More coming...
 
