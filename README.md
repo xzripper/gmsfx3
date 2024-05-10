@@ -1,16 +1,16 @@
 <p align="center"><img src="banner.png"></p>
 
-<h3 align="center">AI Game Sound Effects library with 140+ sounds!</h3>
+<h3 align="center">AI Game Sound Effects library with 165+ sounds!</h3>
 
-GMSFX3 - Wrapper for the <a href="https://github.com/xzripper/gmsfx3-sounds">gmsfx3-sounds</a> sound base, containing 140+ sound effects.<br><br>
+GMSFX3 - Wrapper for the <a href="https://github.com/xzripper/gmsfx3-sounds">gmsfx3-sounds</a> sound base, containing 165+ sound effects.<br><br>
 Currently supported languages:
-  * <a href="https://github.com/xzripper/gmsfx3/tree/main/pygmsfx3">Python</a> (#1 Support).
-  * <a href="https://github.com/xzripper/gmsfx3/tree/main/jgmsfx3">Java</a> (#1 Support).
-  * <a href="https://github.com/xzripper/gmsfx3/tree/main/luagmsfx3">Lua</a> (#2 Support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/pygmsfx3">Python</a> (#2 level of support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/jgmsfx3">Java</a> (#1 level of support).
+  * <a href="https://github.com/xzripper/gmsfx3/tree/main/luagmsfx3">Lua</a> (#3 level of support).
 
 More coming...
 
-<h3>SFX tree for sound base version <code>06.05.2024</code>.</h3>
+<h3>SFX tree for sound base version <code>10.05.2024</code>.</h3>
 <details>
   <summary>SFX Tree (long).</summary><br>
 
@@ -133,6 +133,12 @@ More coming...
       - `FOOTSTEP_CONCRETE_1`
       - `FOOTSTEP_CONCRETE_2`
       - `FOOTSTEP_CONCRETE_3`
+    - `Forest`
+      - `FOOTSTEP_FOREST_1`
+      - `FOOTSTEP_FOREST_2`
+      - `FOOTSTEP_FOREST_3`
+      - `FOOTSTEP_FOREST_4`
+      - `FOOTSTEP_FOREST_5`
     - `Grass`
       - `FOOTSTEP_GRASS_1`
       - `FOOTSTEP_GRASS_2`
@@ -144,6 +150,12 @@ More coming...
     - `Sand`
       - `FOOTSTEP_SAND_1`
       - `FOOTSTEP_SAND_2`
+    - `Snow`
+      - `FOOTSTEP_SNOW_1`
+      - `FOOTSTEP_SNOW_2`
+      - `FOOTSTEP_SNOW_3`
+      - `FOOTSTEP_SNOW_4`
+      - `FOOTSTEP_SNOW_5`
     - `Water`
       - `FOOTSTEP_WATER_1`
     - `Wood`
@@ -160,6 +172,10 @@ More coming...
     - `GMSFX3_INTRO_1`
     - `GMSFX3_INTRO_2`
     - `GMSFX3_INTRO_3`
+    - `GMSFX3_INTRO_4`
+    - `GMSFX3_INTRO_5`
+    - `GMSFX3_INTRO_6`
+    - `GMSFX3_INTRO_7`
 
   - `Gun`
     - `Blaster`
@@ -177,11 +193,21 @@ More coming...
       - `GUN_RIFLE_SHOT_2`
       - `GUN_RIFLE_SHOT_3`
 
+  - `GenericRumble`
+    - `GENERIC_RUMBLE_1`
+
   - `Human`
     - `HUMAN_BREATHING_1`
 
   - `Knife`
     - `KNIFE_BLADE_1`
+
+  - `Knocking`
+    - `KNOCKING_1`
+    - `KNOCKING_2`
+    - `KNOCKING_3`
+    - `KNOCKING_4`
+    - `KNOCKING_5`
 
   - `MaleHit`
     - `MALE_HIT_1`
@@ -300,4 +326,4 @@ You can push issue for new sound request, or for any other issue. Pull requests 
 `gmsfx3-sounds` base has no copyrighted material and free to use.<br><br>
 The `GMSFX3` software is licensed under the MIT License, but I would like to request that you include an attribution.
 
-<hr><p align="center"><b>GMSFX3 v1.1.0</b> <img src="icon.png" width=20></p>
+<hr><p align="center"><b>GMSFX3 v1.2.0</b> <img src="icon.png" width=20></p>
