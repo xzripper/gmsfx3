@@ -10,7 +10,10 @@ public class GMSFX3DownloadResult {
 
     protected String[] error;
 
-    GMSFX3DownloadResult(String sfxPath_, String[] error_) {
+    /**
+     * Initialize download result.
+     */
+    public GMSFX3DownloadResult(String sfxPath_, String[] error_) {
         sfxPath = sfxPath_;
 
         error = error_;

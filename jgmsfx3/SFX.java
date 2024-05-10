@@ -171,6 +171,14 @@ public class SFX {
             public static final String FOOTSTEP_CONCRETE_3 = "footstep_concrete_3";
         }
 
+        public static class Forest {
+            public static final String FOOTSTEP_FOREST_1 = "footstep_forest_1";
+            public static final String FOOTSTEP_FOREST_2 = "footstep_forest_2";
+            public static final String FOOTSTEP_FOREST_3 = "footstep_forest_3";
+            public static final String FOOTSTEP_FOREST_4 = "footstep_forest_4";
+            public static final String FOOTSTEP_FOREST_5 = "footstep_forest_5";
+        }
+
         public static class Grass {
             public static final String FOOTSTEP_GRASS_1 = "footstep_grass_1";
             public static final String FOOTSTEP_GRASS_2 = "footstep_grass_2";
@@ -186,6 +194,14 @@ public class SFX {
         public static class Sand {
             public static final String FOOTSTEP_SAND_1 = "footstep_sand_1";
             public static final String FOOTSTEP_SAND_2 = "footstep_sand_2";
+        }
+
+        public static class Snow {
+            public static final String FOOTSTEP_SNOW_1 = "footstep_snow_1";
+            public static final String FOOTSTEP_SNOW_2 = "footstep_snow_2";
+            public static final String FOOTSTEP_SNOW_3 = "footstep_snow_3";
+            public static final String FOOTSTEP_SNOW_4 = "footstep_snow_4";
+            public static final String FOOTSTEP_SNOW_5 = "footstep_snow_5";
         }
 
         public static class Water {
@@ -209,6 +225,10 @@ public class SFX {
         public static final String GMSFX3_INTRO_1 = "gmsfx3_intro_1";
         public static final String GMSFX3_INTRO_2 = "gmsfx3_intro_2";
         public static final String GMSFX3_INTRO_3 = "gmsfx3_intro_3";
+        public static final String GMSFX3_INTRO_4 = "gmsfx3_intro_4";
+        public static final String GMSFX3_INTRO_5 = "gmsfx3_intro_5";
+        public static final String GMSFX3_INTRO_6 = "gmsfx3_intro_6";
+        public static final String GMSFX3_INTRO_7 = "gmsfx3_intro_7";
     }
 
     public static class Gun {
@@ -233,12 +253,24 @@ public class SFX {
         }
     }
 
+    public static class GenericRumble {
+        public static final String GENERIC_RUMBLE_1 = "generic_rumble_1";
+    }
+
     public static class Human {
         public static final String HUMAN_BREATHING_1 = "human_breathing_1";
     }
 
     public static class Knife {
         public static final String KNIFE_BLADE_1 = "knife_blade_1";
+    }
+
+    public static class Knocking {
+        public static final String KNOCKING_1 = "knocking_1";
+        public static final String KNOCKING_2 = "knocking_2";
+        public static final String KNOCKING_3 = "knocking_3";
+        public static final String KNOCKING_4 = "knocking_4";
+        public static final String KNOCKING_5 = "knocking_5";
     }
 
     public static class MaleHit {

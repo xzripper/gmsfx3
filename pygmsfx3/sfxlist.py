@@ -139,6 +139,13 @@ class GMSFX3:
             FOOTSTEP_CONCRETE_2: SFXName = 'footstep_concrete_2'
             FOOTSTEP_CONCRETE_3: SFXName = 'footstep_concrete_3'
 
+        class Forest:
+            FOOTSTEP_FOREST_1: SFXName = 'footstep_forest_1'
+            FOOTSTEP_FOREST_2: SFXName = 'footstep_forest_2'
+            FOOTSTEP_FOREST_3: SFXName = 'footstep_forest_3'
+            FOOTSTEP_FOREST_4: SFXName = 'footstep_forest_4'
+            FOOTSTEP_FOREST_5: SFXName = 'footstep_forest_5'
+
         class Grass:
             FOOTSTEP_GRASS_1: SFXName = 'footstep_grass_1'
             FOOTSTEP_GRASS_2: SFXName = 'footstep_grass_2'
@@ -152,6 +159,13 @@ class GMSFX3:
         class Sand:
             FOOTSTEP_SAND_1: SFXName = 'footstep_sand_1'
             FOOTSTEP_SAND_2: SFXName = 'footstep_sand_2'
+
+        class Snow:
+            FOOTSTEP_SNOW_1: SFXName = 'footstep_snow_1'
+            FOOTSTEP_SNOW_2: SFXName = 'footstep_snow_2'
+            FOOTSTEP_SNOW_3: SFXName = 'footstep_snow_3'
+            FOOTSTEP_SNOW_4: SFXName = 'footstep_snow_4'
+            FOOTSTEP_SNOW_5: SFXName = 'footstep_snow_5'
 
         class Water:
             FOOTSTEP_WATER_1: SFXName = 'footstep_water_1'
@@ -170,6 +184,10 @@ class GMSFX3:
         GMSFX3_INTRO_1: SFXName = 'gmsfx3_intro_1'
         GMSFX3_INTRO_2: SFXName = 'gmsfx3_intro_2'
         GMSFX3_INTRO_3: SFXName = 'gmsfx3_intro_3'
+        GMSFX3_INTRO_4: SFXName = 'gmsfx3_intro_4'
+        GMSFX3_INTRO_5: SFXName = 'gmsfx3_intro_5'
+        GMSFX3_INTRO_6: SFXName = 'gmsfx3_intro_6'
+        GMSFX3_INTRO_7: SFXName = 'gmsfx3_intro_7'
 
     class Gun:
         class Blaster:
@@ -189,11 +207,21 @@ class GMSFX3:
             GUN_RIFLE_SHOT_2: SFXName = 'gun_rifle_shot_2'
             GUN_RIFLE_SHOT_3: SFXName = 'gun_rifle_shot_3'
 
+    class GenericRumble:
+        GENERIC_RUMBLE_1: SFXName = 'generic_rumble_1'
+
     class Human:
         HUMAN_BREATHING_1: SFXName = 'human_breathing_1'
 
     class Knife:
         KNIFE_BLADE_1: SFXName = 'knife_blade_1'
+
+    class Knocking:
+        KNOCKING_1: SFXName = 'knocking_1'
+        KNOCKING_2: SFXName = 'knocking_2'
+        KNOCKING_3: SFXName = 'knocking_3'
+        KNOCKING_4: SFXName = 'knocking_4'
+        KNOCKING_5: SFXName = 'knocking_5'
 
     class MaleHit:
         MALE_HIT_1: SFXName = 'male_hit_1'

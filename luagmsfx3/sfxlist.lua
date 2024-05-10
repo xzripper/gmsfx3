@@ -168,6 +168,14 @@ GMSFX3.Footstep = {
         FOOTSTEP_CONCRETE_3 = "footstep_concrete_3"
     },
 
+    Forest = {
+        FOOTSTEP_FOREST_1 = "footstep_forest_1",
+        FOOTSTEP_FOREST_2 = "footstep_forest_2",
+        FOOTSTEP_FOREST_3 = "footstep_forest_3",
+        FOOTSTEP_FOREST_4 = "footstep_forest_4",
+        FOOTSTEP_FOREST_5 = "footstep_forest_5"
+    },
+
     Grass = {
         FOOTSTEP_GRASS_1 = "footstep_grass_1",
         FOOTSTEP_GRASS_2 = "footstep_grass_2"
@@ -183,6 +191,14 @@ GMSFX3.Footstep = {
     Sand = {
         FOOTSTEP_SAND_1 = "footstep_sand_1",
         FOOTSTEP_SAND_2 = "footstep_sand_2"
+    },
+
+    Snow = {
+        FOOTSTEP_SNOW_1 = "footstep_snow_1",
+        FOOTSTEP_SNOW_2 = "footstep_snow_2",
+        FOOTSTEP_SNOW_3 = "footstep_snow_3",
+        FOOTSTEP_SNOW_4 = "footstep_snow_4",
+        FOOTSTEP_SNOW_5 = "footstep_snow_5"
     },
 
     Water = {
@@ -205,7 +221,11 @@ GMSFX3.GlassBreaks = {
 GMSFX3.GMSFX3Intro = {
     GMSFX3_INTRO_1 = "gmsfx3_intro_1",
     GMSFX3_INTRO_2 = "gmsfx3_intro_2",
-    GMSFX3_INTRO_3 = "gmsfx3_intro_3"
+    GMSFX3_INTRO_3 = "gmsfx3_intro_3",
+    GMSFX3_INTRO_4 = "gmsfx3_intro_4",
+    GMSFX3_INTRO_5 = "gmsfx3_intro_5",
+    GMSFX3_INTRO_6 = "gmsfx3_intro_6",
+    GMSFX3_INTRO_7 = "gmsfx3_intro_7"
 }
 
 GMSFX3.Gun = {
@@ -230,12 +250,24 @@ GMSFX3.Gun = {
     }
 }
 
+GMSFX3.GenericRumble = {
+    GENERIC_RUMBLE_1 = "generic_rumble_1"
+}
+
 GMSFX3.Human = {
     HUMAN_BREATHING_1 = "human_breathing_1"
 }
 
 GMSFX3.Knife = {
     KNIFE_BLADE_1 = "knife_blade_1"
+}
+
+GMSFX3.Knocking = {
+    KNOCKING_1 = "knocking_1",
+    KNOCKING_2 = "knocking_2",
+    KNOCKING_3 = "knocking_3",
+    KNOCKING_4 = "knocking_4",
+    KNOCKING_5 = "knocking_5"
 }
 
 GMSFX3.MaleHit = {

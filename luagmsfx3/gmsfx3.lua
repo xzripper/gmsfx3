@@ -5,7 +5,7 @@
 
 --- GMSFX3 Version.
 ---@type string
-GMSFX3_VERSION = "1.1.0"
+GMSFX3_VERSION = "1.2.0"
 
 --- Sounds Base Version URL.
 ---@type string

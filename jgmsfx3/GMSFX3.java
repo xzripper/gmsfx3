@@ -10,13 +10,19 @@ import java.nio.channels.Channels;
 
 import java.nio.channels.ReadableByteChannel;
 
-import java.io.File;
+import java.io.BufferedReader;
+
+import java.io.InputStreamReader;
 
 import java.io.FileOutputStream;
+
+import java.io.File;
 
 import java.io.FileNotFoundException;
 
 import java.io.IOException;
+
+import java.net.HttpURLConnection;
 
 import java.util.Random;
 
@@ -31,7 +37,12 @@ public class GMSFX3 {
     /**
      * Version.
      */
-    public static final String GMSFX3_VERSION = "v1.1.0";
+    public static final String GMSFX3_VERSION = "v1.2.0";
+
+    /**
+     * Static base version. Use for more fast access to version, but may be older than actual version.
+     */
+    public static final String BASE_VERSION_STATIC = "10.05.2024";
 
     /**
      * Generate URL to SFX.
@@ -117,10 +128,35 @@ public class GMSFX3 {
     }
 
     /**
-     * Get sounds base version. Not implemented (temporary).
+     * Get sounds base version. Use <code>gmsfx3StaticBaseVersion</code> for faster access to base version.
      */
     public static String gmsfx3BaseVersion() {
-        return "undefined";
+        StringBuilder GETOutput = new StringBuilder();
+
+        HttpURLConnection connection;
+
+        try {
+            connection = (HttpURLConnection) new URL("https://raw.githubusercontent.com/xzripper/gmsfx3-sounds/main/sounds/BASE-VERSION").openConnection();
+
+            connection.setRequestMethod("GET");
+
+            try(BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
+                for(String line; (line = reader.readLine()) != null;) {
+                    GETOutput.append(line);
+                }
+            }
+
+            return GETOutput.toString();
+        } catch(IOException ioException) {
+            return "undefined";
+        }
+    }
+
+    /**
+     * Get sounds base static version. Use for more fast access to version, but may be older than actual version.
+     */
+    public static String gmsfx3StaticBaseVersion() {
+        return BASE_VERSION_STATIC;
     }
 
     /**
